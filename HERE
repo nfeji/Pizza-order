@@ -1,0 +1,49 @@
+total = 0
+
+
+#Print Statements (Prints Whatever you want it to print)
+print("####################################")
+print("Welcome to PizzaHaven")
+print("####################################")
+print ("")
+print("####################################")
+
+print("Please Enter Your Name Before We Procced.")
+#Input to allow user's to enter their name
+name = input("Name: ")
+print("####################################")
+
+print ("")
+
+#Menu
+print("####################################")
+print("Menu:")
+print ("1. Meatlovers Pizza")
+print ("2. Hawaiian Pizza")
+print ("3. VegeDeluxe Pizza")
+print("####################################")
+
+print ("")
+
+#Askes user for order number
+order = int(input("Please Enter A Number: "))
+
+if order == 1:
+  print("Order: Meatlovers Pizza")
+  print ("Total: $10")
+
+elif order == 2:
+  print("Order: Hawaiian Pizza")
+  print ("Total: $5")
+
+elif order == 3:
+  print("Order: VegeDeluxe Pizza")
+  print ("Total: $5")
+
+else:
+  print("Invaild Number. Please Enter A Vaild Number")
+
+#THINGS TO DO:
+#CREATE A LOOP SO THAT CUSTOMER"S CAN MAKE MULTIPLE ORDERS
+#COME UP WITH A WAY WHERE THE TOTAL GET'S COLCULATED
+
