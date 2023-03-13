@@ -1,0 +1,52 @@
+name = ""
+order = int(0)
+MeatLovers = 9.95
+Hawain = 4.95
+VegeDelight = 5.95
+total = 0
+
+print("####################################")
+print("Welcome to PizzaHaven")
+print("Please place order from the following Menu")
+print("")
+print("Meatlovers:",MeatLovers)
+print("Hawaiin:",Hawain)
+print("VegeDeluxe:",VegeDelight)
+print("Enter 1 for Meatlovers, 2 for Hawaiian, 3 for VegeDelight and 0 to finish order.")
+
+name =input("What is your name? ")
+order = int(input("Enter any number between 1 and 3: "))
+
+
+
+
+while order != 0:
+
+ if order == 1:
+        total = total + 9.95
+        order = int(input("What is your order? "))
+
+
+    if order == 2:
+        total = total + 4.95
+        order = int(input("What is your order? "))
+
+
+    if order == 3:
+     total = total + 5.95
+     order = int(input("What is your order? "))
+
+
+    if order < 0 or  order > 3:
+         order = int(input("Enter any number betwen 1 and 3 or 0 to finish order: "))
+
+
+print("Your total is: $:{:.2f)" .format(total))
+
+
+
+print(name,", Your order will be ready in 5 minutes")
+print("-----------------------------------/U0001f600----------------------------------------")            
+                
+    
+                                
