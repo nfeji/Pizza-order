@@ -1,0 +1,30 @@
+ #asking for extra toppings
+toppings= int(0)
+Pepperoni = 2.00
+Onion = 2.00
+Salami = 2.34
+Mushrooms = 2.00
+Onions = 2.68
+tomatoes = 2.50
+
+    order_topping = True
+print("Do you want toppings?press y or n")
+if order_topping == "y":
+    print("Ok please continue with your order")
+
+if order_topping == "n":
+    print("These are the available pizza toppings")
+    print("pepperoni",pepperoni,"tomatoes",tomatoes,"Salami",Salami,"Mushrooms",Mushrooms,"cheese",cheese,"onions",onions)
+
+   
+            
+
+        
+print(f"\nYour total order price with selected toppings is: ${sum(toppings= int(0)
+Pepperoni = 2.00
+Onion = 2.00
+Salami = 2.34
+Mushrooms = 2.00
+Onions = 2.68
+tomatoes = 2.50
+print ("Enter quanitity of item(s) bought:   ")
